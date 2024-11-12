@@ -6,6 +6,7 @@ import 'user_info.dart';
 import 'user_skills.dart';
 import 'user_knowledge.dart';
 import 'user_contact_info.dart';
+
 class CustomDrawer extends StatelessWidget {
   const CustomDrawer({super.key});
 
@@ -29,6 +30,7 @@ class CustomDrawer extends StatelessWidget {
                       UserKnowledge(),
                       Divider(),
                       SizedBox(height: AppConstants.defaultPadding),
+                      UserContactInfo()
                     ],
                   ),
                 ))

@@ -6,10 +6,13 @@ import 'package:myapp/src/controller/controller.dart';
 import 'package:myapp/src/ui/screen/home/components/drawer/drawer.dart';
 import 'package:myapp/src/ui/screen/home/components/navigation_button_list.dart';
 import 'package:myapp/src/ui/screen/home/components/top_navigation_bar.dart';
+import '../intro/introduction_screen.dart';
 
 class HomeScreen extends StatelessWidget {
   HomeScreen({super.key});
-  final List<Widget> pages = [];
+  final List<Widget> pages = [
+    const IntroductionScreen(),
+  ];
 
   @override
   Widget build(BuildContext context) {
@@ -20,7 +23,7 @@ class HomeScreen extends StatelessWidget {
           children: [
             kIsWeb && !Responsive.isLargeMobile(context)
                 ? const SizedBox(
-                    height:AppConstants.defaultPadding * 2,
+                    height: AppConstants.defaultPadding * 2,
                   )
                 : const SizedBox(
                     height: AppConstants.defaultPadding / 2,

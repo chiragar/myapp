@@ -6,7 +6,7 @@ class AppAssets {
   static const String blocIcon = 'assets/icons/bloc.png';
   static const String dartIcon = 'assets/icons/dart.png';
 
- static const String checkSVG =  'assets/icons/check.svg';
- static const String linkedinSVG ='assets/icons/linkedin.svg';
-  static const String githubSVG ='assets/icons/github.svg';
+  static const String checkSVG = 'assets/icons/check.svg';
+  static const String linkedinSVG = 'assets/icons/linkedin.svg';
+  static const String githubSVG = 'assets/icons/github.svg';
 }

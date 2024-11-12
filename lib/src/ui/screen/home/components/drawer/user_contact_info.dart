@@ -24,7 +24,7 @@ class UserContactInfo extends StatelessWidget {
               onPressed: () {
                 launchUrl(Uri.parse('https://github.com/chiragar'));
               },
-              icon: SvgPicture.asset(AppAssets.githubSVG)),
+              icon: SvgPicture.asset("assets/icons/github.svg")),
           const Spacer(),
         ],
       ),
